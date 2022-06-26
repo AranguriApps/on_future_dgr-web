@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "firebase": "^9.8.4",
+    "firebase": "^9.8.2",
+    "firebaseui": "^6.0.1",
     "node": "^18.4.0"
   },
   "name": "on_future_dgr-web",
