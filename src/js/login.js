@@ -13,7 +13,7 @@ var ui = new firebaseui.auth.AuthUI(auth);
 let user = null;
 let isSignedIn = false;
 ui.start('#firebaseui-auth-container', {
-  signInSuccessUrl: 'admin.html',
+  signInSuccessUrl: 'admin-clients.html',
   signInOptions: [
     // List of OAuth providers supported.
     GoogleAuthProvider.PROVIDER_ID

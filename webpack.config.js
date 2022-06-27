@@ -17,7 +17,8 @@ module.exports = {
     entry: {
       landing: './src/js/landing.js',
       login: './src/js/login.js',
-      adm: './src/js/admin.js'
+      adm_clients: './src/js/admin-clients.js',
+      adm_services: './src/js/admin-services.js'
     },
 
     output: {

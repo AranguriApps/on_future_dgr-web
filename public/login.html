@@ -23,32 +23,24 @@
   <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<body class="text-light bg-dark p-5">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="" width="50" height="50">
+            OnFuture
+        </a>
 
-  <div class="container">
+    </div>
+</nav>
+  <div class="container mt-5">
     <!-- The surrounding HTML is left untouched by FirebaseUI.
      Your app may use that space for branding, controls and other customizations.-->
-    <h1>Inicia sesión para continuar</h1>
+    <h1 class="text-center mt-5">Inicia sesión para continuar</h1>
+      <img class="mx-auto d-block w-25" src="assets/images/logo.png" alt="logo">
     <div id="firebaseui-auth-container"></div>
+  </div>
+</div>
     <script type="module" src="js/login-bundle.js"></script>
 
 
