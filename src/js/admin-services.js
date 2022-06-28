@@ -22,13 +22,8 @@ function addToTable(doc) {
     <tr>
     <th scope="row">${doc.data().title}</td>
         <td>${doc.data().description}</td>
-        <td>${doc.data().image_url}</td>
-        <td>${doc.data().target_text}</td>
-        <td>${doc.data().target_url}</td>
-        <td>${doc.data().contact_title}</td>
-        <td>${doc.data().contact_message}</td>
-        <td><button class="btn btn-danger" onclick="window.eliminar('${doc.id}')"><i class="fa fa-trash"></i></button></td>
-        <td><button class="btn btn-warning" onclick="window.editar('${doc.id}','${doc.data().title}','${doc.data().description}','${doc.data().image_url}','${doc.data().target_text}','${doc.data().target_url}','${doc.data().contact_title}','${doc.data().contact_message}')"><i class="fa fa-edit"></i></button></td>
+        <td><button class="btn btn-danger" onclick="window.eliminar('${doc.id}')"><i class="bi bi-trash"></i></button></td>
+        <td><button class="btn btn-warning" onclick="window.editar('${doc.id}','${doc.data().title}','${doc.data().description}','${doc.data().image_url}','${doc.data().target_text}','${doc.data().target_url}','${doc.data().contact_title}','${doc.data().contact_message}')"><i class="bi bi-pencil"></i></button></td>
     </tr>
     `
 }

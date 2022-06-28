@@ -19,11 +19,9 @@ function addToTable(doc) {
     `
     <tr>
     <th scope="row">${doc.data().name}</td>
-        <td>${doc.data().logo_url}</td>
         <td>${doc.data().description}</td>
-        <td>${doc.data().target_url}</td>
-        <td><button class="btn btn-danger" onclick="window.eliminar('${doc.id}')"><i class="fa fa-trash"></i></button></td>
-        <td><button class="btn btn-warning" onclick="window.editar('${doc.id}','${doc.data().name}','${doc.data().logo_url}','${doc.data().description}','${doc.data().target_url}')"><i class="fa fa-edit"></i></button></td>
+        <td><button class="btn btn-danger" onclick="window.eliminar('${doc.id}')"><i class="bi bi-trash"></i></button></td>
+        <td><button class="btn btn-warning" onclick="window.editar('${doc.id}','${doc.data().name}','${doc.data().logo_url}','${doc.data().description}','${doc.data().target_url}')"><i class="bi bi-pencil"></i></button></td>
     </tr>
     `
 }
