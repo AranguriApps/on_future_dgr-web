@@ -35,12 +35,10 @@ function addToCarousel(doc, extra) {
   clientCarousel.innerHTML +=
     `
   <div class="carousel-item ${extra} py-5">
-                      <div class="col-md-3">
-                          <div class="cardd">
+                      <div class="col-12 col-md-3 d-flex">
                               <div class="card-img">
                                   <img src="${doc.data().logo_url}" class="img-fluid-logo">
                               </div>
-                          </div>
                       </div>
                   </div>
   `
