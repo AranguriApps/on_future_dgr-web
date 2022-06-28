@@ -55,28 +55,33 @@
     </div>
   </nav>
 
-  <div class="text-light bg-dark py-sm-5 mt-md-5 ">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 ">
-          <h1 class="fs-1 fw-bold">Innovando puentes tecnológicos</h1>
-          <p>Ayudamos a cuidar a tu capital tecnológico más importante</p>
-          <button type="button" class="btn btn-primary">Conocer más</button>
-
+  <section class="bg-dark text-light h-100">
+    <div class="container col-xxl-8 px-4 py-5" id="hero">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-12 col-sm-8 col-lg-6 mx-auto">
+          <img src="assets/images/logo.png" class="d-block mx-lg-auto img-fluid bg-dark" alt="Bootstrap Themes"
+            loading="lazy">
         </div>
-        <div class="col-lg-8">
-          <img class="mx-auto d-block w-75" src="assets/images/logo.png" alt="logo">
+        <div class="col-lg-6">
+          <h1 class="display-3 fw-bold lh-1 mb-3">Innovando puentes tecnológicos</h1>
+          <p class="lead">Te brindamos herramientas tecnológicas para ayudar a tu empresa a poder aprovechar y generar
+            nuevas oportunidades</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Conocer más</button>
+          </div>
         </div>
       </div>
-
     </div>
 
-  </div>
 
-  <section class="bg-light text-black" id="about">
+
+  </section>
+
+  <section class="bg-light text-black pt-5" id="about">
     <div class="container text-center d-flex flex-column alto justify-content-center py-5">
 
-      <h1 class="display-4 py-5">Sobre Nosotros</h1>
+      <h1 class="display-6 py-3">Sobre Nosotros</h1>
+      <h1 class="display-8 py-2 text-primary">DGR</h1>
       <p class="lead py-4">Somos una empresa de servicios constituida por un equipo de profesionales, conformando un
         equipo sólido desde el año 1997, unidos por la pasión por brindar soluciones integrales a nuestros clientes, en
         todos los temas relacionados con el diseño, ejecución, control de obras, y gestión de la instauración e
@@ -122,13 +127,12 @@
 
 
 
-  <section class="  text-black py-5 " id="services">
-    <div class="container text-center d-flex flex-column alto justify-content-center ">
-      <h1 class="text-center py-5 display-6">Servicios</h1>
+  <section class="  text-black py-5" id="services">
+    <div class="container text-center d-flex flex-column alto justify-content-center pt-5">
+      <h1 class="display-6 py-3">Servicios</h1>
       <p class="lead text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. At impedit ex
-        omnis, itaque minus dicta excepturi dolorum libero aliquid. Et, aliquid.
-        Totam, incidunt esse ducimus vitae libero aliquam sequi earum.
+        En OnFuture contamos con una amplia gama de servicios relacionados a la tecnología para que tu empresa no se
+        quede atrás ante nuevos cambios sino que maneje los mismos de manera sencilla y eficaz. (Texto de prueba)
       </p>
 
       <div class="row py-5" id="services-container">
@@ -146,20 +150,22 @@
 
 
 
-  <section class=""  data-aos=" fade-up" data-aos-easing="ease-in-out" data-aos-duration="500" id="clients">
+  <section class="pt-5" data-aos=" fade-up" data-aos-easing="ease-in-out" data-aos-duration="500" id="clients">
 
     <div class="container text-center my-3 py-5 ">
-      <h2 class="font-weight-light ">Nuestros clientes</h2>
+      <h1 class="display-6 py-3 font-weight-light ">Nuestros clientes</h1>
       <div class="row mx-auto my-auto justify-content-center " id="container-clients">
         <div id="recipeCarousel" class="carousel slide bg-dark" data-bs-ride="carousel">
-          <div class="carousel-inner m-auto" role="listbox" id="carousel-container" >
+          <div class="carousel-inner m-auto" role="listbox" id="carousel-container">
           </div>
-          <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+          </a>
+          <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
+          </a>
         </div>
       </div>
     </div>
@@ -179,9 +185,9 @@
 
 
 
-  <section class="contact " data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500" id="contact">
+  <section class="contact  pt-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500" id="contact">
     <div class="container  text-center my-3 ">
-      <h2 class="font-weight-light">Contactanos</h2>
+      <h1 class="display-6 py-3">Contactanos</h1>
 
       <div class="row p-5">
 
@@ -190,21 +196,21 @@
           <div class="row">
             <div class="col-md-12">
               <div class="info-box">
-                <i class="bx bx-map"></i>
+                <i class="bi bi-geo-alt h3"></i>
                 <h3>Dirección</h3>
                 <p>Av. Fair 1176, Montegrande, Buenos Aires, Argentina</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
-                <i class="bx bx-envelope"></i>
+                <i class="bi bi-envelope h3"></i>
                 <h3>Email</h3>
                 <p>info@onfuture.com.ar</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
-                <i class="bx bx-phone-call"></i>
+                <i class="bi bi-telephone h3"></i>
                 <h3>Teléfono</h3>
                 <p> +54 9 11 55998419 </p>
               </div>
@@ -229,12 +235,8 @@
             <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
             </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button class="btn btn-primary" type="submit">Send Message</button></div>
+
+            <div class="text-center"><button class="btn btn-primary my-3" type="submit">Enviar mensaje</button></div>
           </form>
         </div>
 
@@ -252,49 +254,34 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Links útiles</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">Nosotros</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Servicios</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#clients">Clientes</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contactános</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+              Av. Fair 1176<br> Montegrande<br>Buenos Aires, Argentina <br><br>
+              <strong>Teléfono:</strong> +54 9 11 55998419<br>
               <strong>Email:</strong> info@onfuture.com.ar<br>
             </p>
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Moderna</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-              darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Seguinos!</h3>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
@@ -304,7 +291,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>DGR</span></strong>. Todos los derechos reservados
+        &copy; Copyright <strong><span><a href="http://www.corpdgr.com/">DGR</a></span></strong>
       </div>
       <div class="credits">
         Designed by <a href="https://aranguriapps.com">AranguriApps</a>

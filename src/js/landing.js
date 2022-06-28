@@ -1,18 +1,4 @@
-function setNavClickListener(idBtn) {
-  document.getElementById(idBtn).addEventListener('click', () => {
-    const myCollapse = document.getElementById('navbarCollapsable')
-    const bsCollapse = new bootstrap.Collapse(myCollapse)
-    bsCollapse.hide()
-  })
-}
 
-setNavClickListener('btnHome')
-setNavClickListener('btnServices')
-setNavClickListener('btnWe')
-setNavClickListener('btnClients')
-setNavClickListener('btnContact')
-
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, onSnapshot } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
